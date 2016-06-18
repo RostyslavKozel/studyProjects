@@ -1,0 +1,69 @@
+body {
+    background: #ccc;
+    color: #000;
+    margin: 0;
+}
+
+.form {
+    text-align: center;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.search-title {
+    text-shadow: 0 1 0 #fff;
+    background: #333;
+    color: #fff;
+    margin: 0;
+}
+.container {
+    overflow: hidden;
+    background: rgba(255,255,255,.6);
+    position: relative;
+}
+.container:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    top: 0;
+    right: 300px;
+    border-right: 1px solid #ccc;
+}
+.wikipedia-container {
+    float:right;
+    width:280px;
+    padding:10px;
+}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:300px;
+}
+
+.bgimg {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+}
+
+.search-title {
+    text-align: center;
+}
+
+.articles-list {
+    margin: 0;
+    padding: 0;
+}
+.articles-list li {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid #ccc;
+}
+.articles-list li:first-child {
+    border-top:none;
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery AJAX</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form" class="form">
+        <label for="street">Street: </label><input type="text" id="street" value="">
+        <label for="city">City: </label><input type="text" id="city" value="">
+        <button id="submit-btn">Submit</button>
+    </form>
+    <div class="container">
+        <div class="nytimes-container">
+            <h2 id="nytimesHeader">
+                New York Times Articles
+            </h2>
+            <ul id="nytimesArticlesList" class="articles-list">
+                What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!
+            </div>
+        </div>
+    </div>
+    <script src="js/libs/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
